@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/tfd_banner.png" alt="Tensor Field Dynamics Banner" width="100%">
+  <img src="[assets/tfd_banner.png" alt="Tensor Field Dynamics Banner](https://github.com/Tensor-Field-Dynamics/.github/blob/main/assets/tfd_banner.png?raw=true)" width="100%">
 </div>
 
 <br>
