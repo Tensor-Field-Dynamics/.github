@@ -6,18 +6,18 @@
 
 # Tensor Field Dynamics (TFD)
 
-## Über diese Organisation
-In dieser Umgebung werden hochleistungsfähige, GPU-beschleunigte Pipelines für Computational Art und die Simulation dynamischer Systeme entwickelt. Der Fokus wird primär auf die Visualisierung komplexer topologischer Strukturen (wie Strange Attractors) und die numerische Integration deterministisch-chaotischer Differentialgleichungen gelegt.
+## About This Organization
+This environment develops high-performance, GPU-accelerated pipelines for computational art and the simulation of dynamical systems. The primary focus is placed on the visualization of complex topological structures (such as strange attractors) and the numerical integration of deterministic-chaotic differential equations.
 
-## Architektur-Standards
-Für sämtliche Projekte wird eine strikte Modularisierung zwischen mathematischer Berechnungsebene, Rendering-Pipeline und Benutzeroberfläche vorausgesetzt:
+## Architectural Standards
+A strict modularization between mathematical computation, rendering pipeline, and user interface is required across all projects:
 
-* **Core Engine:** Die Integration der Vektorfelder wird nativ über vektorisierte PyTorch-Tensoren durchgeführt. Um den VRAM-Durchsatz zu maximieren, werden CPU-basierte Schleifenarchitekturen vollständig vermieden.
-* **Render Pipeline:** Für die visuelle Ausgabe wird auf fortgeschrittene Post-Processing-Techniken zurückgegriffen. Dies umfasst Volumetric Shading, SSAA (Supersampling Anti-Aliasing) sowie filmisches ACES-Tone-Mapping, um Renderings zu erzeugen, die professionellen Standards für hochauflösende Kunstdrucke genügen.
-* **Deployment:** Interaktive Schnittstellen zur Parametersteuerung und Echtzeit-Auswertung werden als modulare Streamlit-Applikationen implementiert.
+* **Core Engine:** Vector field integration is performed natively via vectorized PyTorch tensors. To maximize VRAM throughput, CPU-based loop architectures are completely avoided.
+* **Render Pipeline:** Advanced post-processing techniques are utilized for visual output. This includes volumetric shading, SSAA (Supersampling Anti-Aliasing), and cinematic ACES tone mapping to produce renders meeting professional standards for high-resolution fine art prints.
+* **Deployment:** Interactive interfaces for parameter control and real-time evaluation are implemented as modular Streamlit applications.
 
-## Technologie-Stack
-* PyTorch (CUDA-optimiert)
+## Technology Stack
+* PyTorch (CUDA-optimized)
 * NumPy / Pandas
 * Streamlit
 * Python 3.13+
