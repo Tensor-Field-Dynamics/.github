@@ -4,10 +4,10 @@ The former Tensor Field Dynamics logo (network/molecule symbol) is an element fr
 Canva's library. It must not be used as a brand mark and is being replaced by the new,
 code-generated identity (repository `Tensor-Field-Dynamics/branding`).
 
-| Location | Contains old logo | Replace with |
+| Location | Contains old logo | Status |
 | :--- | :--- | :--- |
-| `assets/tfd_banner.png` (used in `profile/README.md`) | yes, left of the wordmark | `branding/exports/social/banner/tfd-github-org-3000x1000.png` (or `-1500x500`) |
-| Organisation avatar (GitHub → Settings → Profile picture) | yes | `branding/exports/social/avatar/tfd-avatar-github-500.png` |
+| `assets/tfd_banner.png` | yes, left of the wordmark | **Deprecated, no longer referenced.** Replaced by `assets/tfd-banner.png` (`branding/exports/social/banner/tfd-github-org-3000x1000.png`) |
+| Organisation avatar (GitHub → Settings → Profile picture) | yes | To do (manual): upload `branding/exports/social/avatar/tfd-avatar-github-500.png` |
 
-Nothing has been deleted. The old file stays until the replacement is approved; after
-that it can be removed (it also remains in the git history).
+`assets/tfd_banner.png` is kept until its deletion is explicitly approved; it also remains
+in the git history.
