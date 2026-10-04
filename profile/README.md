@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tensor-Field-Dynamics/.github/main/assets/tfd-banner.png" alt="Tensor Field Dynamics" width="100%">
+  <img src="https://raw.githubusercontent.com/Tensor-Field-Dynamics/.github/main/assets/tfd-banner.png?v=2" alt="Tensor Field Dynamics" width="100%">
 </div>
 
 <br>
