@@ -12,6 +12,8 @@ Every image here is the solution of an equation. No prompts, no randomness for i
 
 Strange attractors are chaotic and precise at the same time. They never repeat, yet every curve follows exactly from its formula. Tensor Field Dynamics lives in that tension, where mathematics stops being abstract and starts to feel like magic.
 
+Even the mark above is computed: a single trajectory of the Halvorsen attractor, seen along its axis of symmetry.
+
 ---
 
 ## Principles
@@ -20,10 +22,10 @@ Strange attractors are chaotic and precise at the same time. They never repeat, 
 Every work is grounded in a system: an ODE, a recurrence, a reaction–diffusion model, a distance field. The math is the medium.
 
 **Precision is an aesthetic.**
-Millions of trajectories, density accumulation, filmic tone mapping. Rendered for screens, reels and large-format prints.
+Millions of trajectories, density accumulation, a carefully tuned tone curve. Rendered for screens, reels and large-format prints.
 
-**Open by default, not by completion.**
-The core is public so you can rebuild it, break it and make it your own. Some recipes stay in the lab, for now.
+**Open where it helps you start.**
+Selected pipelines are published as standalone repositories, ready to run, so you can render your first attractor in minutes and take it from there. The engine behind the work stays in the lab.
 
 **Built to move.**
 Chaos is temporal. Attractors unfold, patterns grow, fields drift, often in sync with melodic techno and synth-driven sound.
@@ -36,18 +38,15 @@ Chaos is temporal. Attractors unfold, patterns grow, fields drift, often in sync
 | :--- | :--- |
 | **Strange Attractors** | Lorenz, Thomas, Aizawa, Halvorsen, Peter de Jong, Clifford and more |
 | **Reaction–Diffusion** | Gray–Scott and related pattern-forming systems |
+| **Tensor Fields** | Eigenvector lines and singularities of symmetric tensor fields |
 | **Distance Fields** | SDF rendering and domain warping |
 | **Next** | Fields not yet explored |
 
 ---
 
-## Repositories
+## Open Pipelines
 
-| Repository | Description |
-| :--- | :--- |
-| [`tfd-strange-attractors`](https://github.com/Tensor-Field-Dynamics/tfd-strange-attractors) | GPU-accelerated engine for chaotic dynamical systems: 12 attractors, 3D camera pipeline, print-ready rendering |
-
-Built with PyTorch (CUDA), NumPy and Streamlit.
+Ready-to-run pipelines will be published here, one field at a time. The first one is in preparation.
 
 ---
 
@@ -59,7 +58,9 @@ Hi, I'm Alexander. I study data science and have always been drawn to fractals, 
 
 <div align="center">
 
-[tensorfielddynamics.com](https://tensorfielddynamics.com) · Instagram (coming soon)
+[Instagram](https://www.instagram.com/tensorfielddynamics) · [YouTube](https://www.youtube.com/@tensorfielddynamics) · [TikTok](https://www.tiktok.com/@tensorfielddynamics) · [Bluesky](https://bsky.app/profile/tensorfielddynamics.com)
+
+<sub>Open pipelines are MIT-licensed. Artworks and brand assets: all rights reserved.</sub>
 
 <sub>Chaos is not the absence of order. It is order that hasn't been computed yet.</sub>
 
